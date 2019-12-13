@@ -1,0 +1,165 @@
+/* @font-face { font-family: 'Roboto Condensed'; 
+             src: url('assets/fonts/RobotoCondensed-Regular.ttf'); }
+@font-face { font-family: 'Roboto Condensed Bold'; 
+src: url('assets/fonts/RobotoCondensed-Bold.ttf'); } */
+             
+@font-face{
+    font-family:'Roboto Condensed';
+    font-display:swap;
+    src:local('roboto_condensedbold'),
+    url(https://g.newsweek.com/www/fonts/robotocondensed-bold-webfont.woff2) 
+    format('woff2'),
+    url(https://g.newsweek.com/www/fonts/robotocondensed-bold-webfont.woff) 
+    format('woff');
+    font-weight:700;
+    font-style:normal
+}
+
+@font-face
+{
+    font-family:'Roboto Condensed';
+    font-display:swap;
+    src:local('roboto_condensedregular'),
+    url(https://g.newsweek.com/www/fonts/robotocondensed-regular-webfont.woff2) 
+    format('woff2'),
+    url(https://g.newsweek.com/www/fonts/robotocondensed-regular-webfont.woff) 
+    format('woff');
+    font-weight:normal;
+    font-style:normal
+}
+
+@font-face{
+    font-family:'Roboto Condensed';
+    font-display:swap;
+    src:local('roboto_condensedlight'),
+    url(https://g.newsweek.com/www/fonts/robotocondensed-light-webfont.woff2) 
+    format('woff2'),
+    url(https://g.newsweek.com/www/fonts/robotocondensed-light-webfont.woff) 
+    format('woff');
+    font-weight:300;
+    font-style:normal
+}
+
+.nav-header, 
+.top-header{
+    max-width: 1310px;
+    margin: auto;
+}
+
+.top-header{
+    background: #f72210; 
+    height:95px;
+    padding: 20px 10px 15px;
+}
+
+.top-header .date{
+    margin-left:-15px;
+    margin-top:26px;
+}
+.top-header .date date{
+    color:white;
+    vertical-align: bottom;
+    font:16px/34px "Roboto Condensed",sans-serif;
+    font-weight: normal;
+    margin-left: 20px;
+}
+
+.top-header svg{
+    fill:white;
+    max-width: 396px;
+    height: 60px;
+    margin: 0px auto 0;
+}
+
+.top-header-buttons{
+    margin-top:34px;
+    padding:0;
+}
+.top-header-buttons a{
+    color:white;
+    font-size: 18px;
+    font: bold 18px/14px "Roboto Condensed",sans-serif;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 6px 3px;
+}
+
+a.sign-in-button{
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+a.subscribe-button{
+    background-color: white;
+    color: #f72210;
+    border: none;
+    border-radius: 0;
+    padding-left: 12px;
+}
+
+
+a.subscribe-button svg{
+    fill: #f72210;
+    display: inline-block;
+    width: 8px;
+    height: 14px;
+    margin-left: 10px;
+}
+
+.nav-header{
+    background-color: white;
+    border-bottom-color: #f4f5f6;
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    z-index: 1;
+}
+
+.nav-header:before{
+    position: absolute;
+    top: 0;
+    right: 0;
+    content: "";
+    display: block;
+    width: 66px;
+    background-color: #f72210;
+    border-left: 12px solid white;
+    border-top: 13px solid #f72210;
+}
+
+.nav-header nav a{
+    color: black;
+    border-left-color: #d9d9d9;
+    border-left-style: solid;
+    border-width: 1px;
+    text-align: center;
+    flex-grow: 1;
+    font-size: 21px;
+    line-height: 24px;
+    font-weight: 700;
+    font-family: "Roboto Condensed",sans-serif;
+    text-decoration: none;
+}
+
+.nav-header nav a:first-child{
+    border-left-width:0;
+}
+
+
+.main {
+    background-color: white;
+    padding-top: 20px;
+}
+
+.container-fluid{
+    max-width: 1310px;
+}
+
+
+@media screen and (min-width: 992px){
+    .container-fluid {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
