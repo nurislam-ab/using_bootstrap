@@ -11,13 +11,40 @@
 </head>
 
 <body>
-    <header class="blog-header">
-        <div class="row flex-nowrap justify-content-between align-items-center top-header">
-            <div class="col-4 date">
-                <date>Tue, Dec 10, 2019</date>
+    <header class="page-header">
+        <div class="container">
+            <div class="flex-xs justify-content-between align-items-end top-header">
+                <div class="col-1 col-6">
+                    <date>Tue, Dec 10, 2019</date>
+                </div>
+                <div class="col-2 col-6 flex-xs justify-content-end align-items-center">
+                    <a href="#" class="btn btn-sm btn-link sign-in-button">Sign In</a>
+                    <a href="#" class="btn btn-sm btn-link subscribe-button">
+                        Subscribe
+                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 8 14"
+                            style="enable-background:new 0 0 8 14;" xml:space="preserve">
+                            <g id="arrow-right">
+                                <defs>
+                                    <rect id="SVGID_1_" width="8" height="14"></rect>
+                                </defs>
+                                <clipPath id="SVGID_2_">
+                                    <use xlink:href="#SVGID_1_" style="overflow:visible;"></use>
+                                </clipPath>
+                                <g id="Shape_1" class="st0">
+                                    <g>
+                                        <polygon class="st1" points="8,7 1.1,0 0,1.1 5.9,7 0,12.9 1.1,14 8,7 8,7	">
+                                        </polygon>
+                                    </g>
+                                </g>
+                            </g>
+                        </svg>
+                    </a>
+                </div>
             </div>
-            <div class="col-4 logo text-center">
-                <a href="#">
+
+            <div class="header-middle">
+                <a href="#" class="brand">
                     <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
                         xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 395.6 60"
                         style="enable-background:new 0 0 395.6 60;" xml:space="preserve">
@@ -29,615 +56,1347 @@
                     </svg>
                 </a>
             </div>
-            <div class="col-4 d-flex justify-content-end align-items-center top-header-buttons">
-                <a href="#" class="btn btn-sm btn-link sign-in-button">Sign In</a>
-                <a href="#" class="btn btn-sm btn-link subscribe-button">
-                    Subscribe
-                    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
-                        xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 8 14"
-                        style="enable-background:new 0 0 8 14;" xml:space="preserve">
-                        <g id="arrow-right">
-                            <defs>
-                                <rect id="SVGID_1_" width="8" height="14"></rect>
-                            </defs>
-                            <clipPath id="SVGID_2_">
-                                <use xlink:href="#SVGID_1_" style="overflow:visible;"></use>
-                            </clipPath>
-                            <g id="Shape_1" class="st0">
-                                <g>
-                                    <polygon class="st1" points="8,7 1.1,0 0,1.1 5.9,7 0,12.9 1.1,14 8,7 8,7	">
-                                    </polygon>
-                                </g>
-                            </g>
-                        </g>
-                    </svg>
-                </a>
-            </div>
+
+            <nav class="header-bottom">
+                <div class="flex-md justify-content-center">
+                    <form action="">
+                        <label for="search">Search</label>
+                        <input type="text" maxlength="128" placeholder="Search">
+                    </form>
+
+                    <div class="navigation-bar">
+                        <a href="#" class="menu-item">U.S.</a>
+                        <a href="#" class="menu-item">World</a>
+                        <a href="#" class="menu-item">Business</a>
+                        <a href="#" class="menu-item">Tech & Science</a>
+                        <a href="#" class="menu-item">Culture</a>
+                        <a href="#" class="menu-item">Newsgeek</a>
+                        <a href="#" class="menu-item">Sports</a>
+                        <a href="#" class="menu-item">Health</a>
+                        <a href="#" class="menu-item">Opinion</a>
+                        <a href="#" class="menu-item">Vantage</a>
+                    </div>
+                </div>
+            </nav>
         </div>
     </header>
-
-    <div class="nav-scroller nav-header">
-        <nav class="nav d-flex justify-content-around">
-            <a href="#" class="menu-item">U.S.</a>
-            <a href="#" class="menu-item">World</a>
-            <a href="#" class="menu-item">Business</a>
-            <a href="#" class="menu-item">Tech & Science</a>
-            <a href="#" class="menu-item">Culture</a>
-            <a href="#" class="menu-item">Newsgeek</a>
-            <a href="#" class="menu-item">Sports</a>
-            <a href="#" class="menu-item">Health</a>
-            <a href="#" class="menu-item">Opinion</a>
-            <a href="#" class="menu-item">Vantage</a>
-            <a class="text-muted" href="#" aria-label="Search">
-                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor"
-                    stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="mx-3" role="img"
-                    viewBox="0 0 24 24" focusable="false">
-                    <title>Search</title>
-                    <circle cx="10.5" cy="10.5" r="7.5"></circle>
-                    <path d="M21 21l-5.2-5.2"></path>
-                </svg>
-            </a>
-        </nav>
-    </div>
 
     <section class="main container-fluid">
         <div class="colwrap row sticky-scroll">
             <div class="col-md-8">
-                <div class="row">
-                    <div class="col-5 feature-2">
-                        <h2 class="block-title">Featured stories</h2>
-                        <article>
-                            <div class="wrap">
-                                <div class="category">
-                                    <a href="#">
-                                        World
-                                    </a>
-                                </div>
-                                <div class="image">
-                                    <a href="#">
-                                        <img src="https://d.newsweek.com/en/full/1551993/white-island-volcano-whakatane.webp?w=397&h=265&q=90&f=790ef1be147e2a9ec1b98538ff4c53c3"
-                                            alt="">
-                                    </a>
-                                </div>
-                            </div>
-                            <h3>
-                                <a href="#">
-                                    New Zealand Volcano Should Never Have Been Open to Tourists, Says Expert
-                                </a>
-                            </h3>
-                            <div class="summary">
-                                At least six people have died, another eight are missing and 31 are injured after the
-                                volcano on White Island, erupted off the coast of New Zealand.
-                            </div>
-                        </article>
-                        <article>
-                            <div class="wrap">
-                                <div class="category">
-                                    <a href="#">
-                                        Sports
-                                    </a>
-                                </div>
-                                <div class="image">
-                                    <a href="#">
-                                        <img src="https://d.newsweek.com/en/full/1551746/russian-fifa-world-cup.webp?w=397&h=265&q=90&f=7c340de8c9461796b19ed0210f0d5623"
-                                            alt="">
-                                    </a>
-                                </div>
-                            </div>
-                            <h3>
-                                <a href="#">
-                                    Why Russia Is Banned From the Olympics and FIFA World Cup but Not Euro 2020
-                                </a>
-                            </h3>
-                            <div class="summary">
-                                WADA's four-year ban means Russia won't be able to compete at the 2020 Tokyo Olympics or
-                                at the 2022 FIFA World Cup.
-                            </div>
-                        </article>
-                        <article>
-                            <div class="wrap">
-                                <div class="category">
-                                    <a href="#">
-                                        News
-                                    </a>
-                                </div>
-                                <div class="image">
-                                    <a href="#">
-                                        <img src="https://d.newsweek.com/en/full/1552866/iran-protests-fuel-anti-government-unrest-isfahan-democracy.webp?w=397&h=265&q=90&f=bccc0e6f8ccdee13197b589e338b1e85"
-                                            alt="">
-                                    </a>
-                                </div>
-                            </div>
-                            <h3>
-                                <a href="#">
-                                    Obama's Iran Nuclear Deal Was 'Disastrous,' Shah's Son Says
-                                </a>
-                            </h3>
-                            <div class="summary">
-                                Reza Pahlavi, the exiled heir to the now-defunct Iranian throne, tells Newsweek that the
-                                bloody unrest in his home country can only be solved by removing the regime in Tehran.
-                            </div>
-                        </article>
-                        <article>
-                            <div class="wrap">
-                                <div class="category">
-                                    <a href="#">
-                                        Survey
-                                    </a>
-                                </div>
-                                <div class="image">
-                                    <a href="#">
-                                        <img src="https://d.newsweek.com/en/full/1543729/americas-best-stem-high-schools-2020.webp?w=397&h=265&q=90&f=9f2c1f657ec2d1db899da25b4bcec062"
-                                            alt="">
-                                    </a>
-                                </div>
-                            </div>
-                            <h3>
-                                <a href="#">
-                                    Best STEM High Schools 2020
-                                </a>
-                            </h3>
-                            <div class="summary">
-                                Newsweek partnered with STEM.org to rank America's Best STEM High Schools. We found
-                                successful schools in every region of the country.
-                            </div>
-                        </article>
-                    </div>
-                    <div class="col-7">
-                        <div class="flex-sm fd-c">
-                            <div id="home-featured-story" class="feature-2 order-1">
-                                <h2 class="block-title">Top Story</h2>
+                <div>
+                    <div class="row">
+                        <div class="col-sm-5 feature-2">
+                            <div id="sticky1">
+                                <h2 class="block-title">Featured stories</h2>
                                 <article>
                                     <div class="wrap">
                                         <div class="category">
-                                            <a href="#">Politics</a>
+                                            <a href="#">
+                                                World
+                                            </a>
                                         </div>
                                         <div class="image">
-                                            <img src="https://d.newsweek.com/en/full/1553141/boris-johnson.jpg?w=591&h=364&f=65204018ea18875741bc782905fd803a"
-                                                alt="image">
+                                            <a href="#">
+                                                <img src="https://d.newsweek.com/en/full/1551993/white-island-volcano-whakatane.webp?w=397&h=265&q=90&f=790ef1be147e2a9ec1b98538ff4c53c3"
+                                                    alt="">
+                                            </a>
                                         </div>
                                     </div>
-                                    <h1 class="h2">
+                                    <h3>
                                         <a href="#">
-                                            Americans React As Conservatives Achieve Landslide at U.K. Election
+                                            New Zealand Volcano Should Never Have Been Open to Tourists, Says Expert
                                         </a>
-                                    </h1>
+                                    </h3>
                                     <div class="summary">
-                                        American political pundits offered their initial reactions to news that it
-                                        appears U.K. Prime Minister Boris Johnson's Conservative Party is on course for
-                                        a landslide victory in the country's general election.
+                                        At least six people have died, another eight are missing and 31 are injured
+                                        after
+                                        the
+                                        volcano on White Island, erupted off the coast of New Zealand.
+                                    </div>
+                                </article>
+                                <article>
+                                    <div class="wrap">
+                                        <div class="category">
+                                            <a href="#">
+                                                Sports
+                                            </a>
+                                        </div>
+                                        <div class="image">
+                                            <a href="#">
+                                                <img src="https://d.newsweek.com/en/full/1551746/russian-fifa-world-cup.webp?w=397&h=265&q=90&f=7c340de8c9461796b19ed0210f0d5623"
+                                                    alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <h3>
+                                        <a href="#">
+                                            Why Russia Is Banned From the Olympics and FIFA World Cup but Not Euro 2020
+                                        </a>
+                                    </h3>
+                                    <div class="summary">
+                                        WADA's four-year ban means Russia won't be able to compete at the 2020 Tokyo
+                                        Olympics or
+                                        at the 2022 FIFA World Cup.
+                                    </div>
+                                </article>
+                                <article>
+                                    <div class="wrap">
+                                        <div class="category">
+                                            <a href="#">
+                                                News
+                                            </a>
+                                        </div>
+                                        <div class="image">
+                                            <a href="#">
+                                                <img src="https://d.newsweek.com/en/full/1552866/iran-protests-fuel-anti-government-unrest-isfahan-democracy.webp?w=397&h=265&q=90&f=bccc0e6f8ccdee13197b589e338b1e85"
+                                                    alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <h3>
+                                        <a href="#">
+                                            Obama's Iran Nuclear Deal Was 'Disastrous,' Shah's Son Says
+                                        </a>
+                                    </h3>
+                                    <div class="summary">
+                                        Reza Pahlavi, the exiled heir to the now-defunct Iranian throne, tells Newsweek
+                                        that
+                                        the
+                                        bloody unrest in his home country can only be solved by removing the regime in
+                                        Tehran.
+                                    </div>
+                                </article>
+                                <article>
+                                    <div class="wrap">
+                                        <div class="category">
+                                            <a href="#">
+                                                Survey
+                                            </a>
+                                        </div>
+                                        <div class="image">
+                                            <a href="#">
+                                                <img src="https://d.newsweek.com/en/full/1543729/americas-best-stem-high-schools-2020.webp?w=397&h=265&q=90&f=9f2c1f657ec2d1db899da25b4bcec062"
+                                                    alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <h3>
+                                        <a href="#">
+                                            Best STEM High Schools 2020
+                                        </a>
+                                    </h3>
+                                    <div class="summary">
+                                        Newsweek partnered with STEM.org to rank America's Best STEM High Schools. We
+                                        found
+                                        successful schools in every region of the country.
                                     </div>
                                 </article>
                             </div>
-
-                            <div id="home-featured-more" class="feature-2 order-3">
-                                <h2 class="block-title">More Stories</h2>
-
-                                <article class="clearfix">
-                                    <div class="image">
-                                        <a href="#">
-                                            <img src="https://d.newsweek.com/en/full/1552871/farmworker.webp?w=135&h=90&f=f6bbe552bc68f5ecb39c67a289926c3f"
-                                                alt="iamge">
-                                        </a>
-                                    </div>
-                                    <h4>
-                                        <a href="#">
-                                            House Passes Bill Giving Undocumented Farm Workers Path to Citizenship
-                                        </a>
-                                    </h4>
-                                    <div class="summary">
-                                        "We need to see more of this kind of compromise," said Ali Noorani, executive
-                                        director of the National Immigration Forum.
-                                    </div>
-                                </article>
-
-                                <article class="clearfix">
-                                    <div class="image">
-                                        <a href="#">
-                                            <img src="https://d.newsweek.com/en/full/1552126/pelosi-delivers-solemn-impeachment-articles-announcement.webp?w=135&h=90&f=a8efbf10dacadb28bd4da499e096c268"
-                                                alt="iamge">
-                                        </a>
-                                    </div>
-                                    <h4>
-                                        <a href="#">
-                                            Impeachment Hearings Have Done Nothing to Change Republican Minds: Poll
-                                        </a>
-                                    </h4>
-                                    <div class="summary">
-                                        A YouGov poll reported 47 percent support for impeachment among 1,500 adults,
-                                        while 45 percent agreed that the president withheld Ukraine's military aid in
-                                        exchange for a Biden investigation.
-                                    </div>
-                                </article>
-
-                                <article class="clearfix">
-                                    <div class="image">
-                                        <a href="#">
-                                            <img src="https://d.newsweek.com/en/full/1552048/alexandria-ocasio-cortez-state-union.webp?w=135&h=90&l=48&t=38&f=f016291b4aaefa2fabc7ed2cd22c7ecc"
-                                                alt="">
-                                        </a>
-                                    </div>
-                                    <h4>
-                                        <a href="#">
-                                            Alexandria Ocasio-Cortez Is Fourth Most Tweeted About Politician in the
-                                            World
-                                        </a>
-                                    </h4>
-                                    <div class="summary">
-                                        The freshman representative from New York was also more tweeted about than major
-                                        world leaders, including Emmanuel Macron, Vladimir Putin and Jair Bolosonaro.
-                                    </div>
-                                </article>
-
-                                <article class="clearfix">
-                                    <div class="image">
-                                        <a href="#">
-                                            <img src="https://d.newsweek.com/en/full/1553152/vatican-catholic-church.webp?w=135&h=90&f=8eb590fa497955c33cebe0b0fd3fa22e"
-                                                alt="">
-                                        </a>
-                                    </div>
-                                    <h4>
-                                        <a href="#">
-                                            Vatican official sees no link between homosexuality and pedophilia
-                                        </a>
-                                    </h4>
-                                    <div class="summary">
-                                        Vatican official Jodi Bertomeu Farnos wrote there is no link between celibacy or
-                                        homosexuality with the current rash of child sex abuse cases in the Catholic
-                                        church.
-                                    </div>
-                                </article>
-
-                                <article class="clearfix">
-                                    <div class="image">
-                                        <a href="#">
-                                            <img src="https://d.newsweek.com/en/full/1552021/twitter-game-thrones.webp?w=135&h=90&l=46&t=50&f=a410e700e33d3beb850f46acdef406a1"
-                                                alt="">
-                                        </a>
-                                    </div>
-                                    <h4>
-                                        <a href="#">
-                                            'Game of Thrones,' 'Stranger Things' Revealed as 2019's Most Tweeted Shows
-                                        </a>
-                                    </h4>
-                                    <div class="summary">
-                                        Twitter has revealed the 10 most-discussed TV series this year, which include
-                                        some of Netflix's biggest shows plus the controversial final series of "Game of
-                                        Thrones."
-                                    </div>
-                                </article>
-
-                                <article class="clearfix">
-                                    <div class="image">
-                                        <a href="#">
-                                            <img src="https://d.newsweek.com/en/full/1551887/afgpapers-9dec2019.webp?w=135&h=90&f=51a8865fc79beb713a429c98cf902514"
-                                                alt="">
-                                        </a>
-                                    </div>
-                                    <h4>
-                                        <a href="#">
-                                            Afghan War Report Enrages Vets: 'Even As More of Us Died, They Lied'
-                                        </a>
-                                    </h4>
-                                    <div class="summary">
-                                        Veterans and Gold Star families responded with anger and frustration to a report
-                                        in The Washington Post that details how presidents, politicians and Pentagon
-                                        officials misled the American public about the war effort.
-                                    </div>
-                                </article>
-
-                                <article class="clearfix">
-                                    <div class="image">
-                                        <a href="#">
-                                            <img src="https://d.newsweek.com/en/full/1552038/immigration-protest.webp?w=135&h=90&f=e56a225f5265bff6b90e0f903b6cd702"
-                                                alt="">
-                                        </a>
-                                    </div>
-                                    <h4>
-                                        <a href="#">
-                                            Doctors Barred From Giving Migrants Free Flu Shots Vow to Return Each Day
-                                        </a>
-                                    </h4>
-                                    <div class="summary">
-                                        "People are needlessly suffering and dying," said Dr. Marie DeLuca, one of the
-                                        doctors offering free flu vaccinations.
-                                    </div>
-                                </article>
-
-                                <article class="clearfix">
-                                    <div class="image">
-                                        <a href="#">
-                                            <img src="https://d.newsweek.com/en/full/1551923/volodymyr-zelenskiy.webp?w=135&h=90&f=f77330136ddf052d2ce7d30816145afe"
-                                                alt="">
-                                        </a>
-                                    </div>
-                                    <h4>
-                                        <a href="#">
-                                            Zelenskiy Says Russia-Ukraine Cease-Fire Possible by Year's End
-                                        </a>
-                                    </h4>
-                                    <div class="summary">
-                                        Ukrainian President Volodymyr Zelenskiy made the assertion at a meeting of world
-                                        leaders in Paris.
-                                    </div>
-                                </article>
-
-                                <article class="clearfix">
-                                    <div class="image">
-                                        <a href="#">
-                                            <img src="https://d.newsweek.com/en/full/1551955/boris-johnson.jpg?w=135&h=90&f=785e865893ded87b04496848a42d4eee"
-                                                alt="">
-                                        </a>
-                                    </div>
-                                    <h4>
-                                        <a href="#">
-                                            Boris Johnson Imitates Famous 'Love, Actually' Scene in Election Ad
-                                        </a>
-                                    </h4>
-                                    <div class="summary">
-                                        In preparation for the general election, Johnson has created an ad campaign that
-                                        parodies a famous scene in the movie, while Hugh Grant, who stars in the film,
-                                        goes door to door for Johnson's Liberal Democrat opponents.
-                                    </div>
-                                </article>
-
-                                <article class="clearfix">
-                                    <div class="image">
-                                        <a href="#">
-                                            <img src="https://d.newsweek.com/en/full/1553015/nato-alliance-drills-military-alliance-norway.webp?w=135&h=90&f=6b7329b24bcd81532483544d89cae1b8"
-                                                alt="">
-                                        </a>
-                                    </div>
-                                    <h4>
-                                        <a href="#">
-                                            Russia Hits Back at U.S., Allies Trying to Dominate 'Land, Air, Sea, Space'
-                                        </a>
-                                    </h4>
-                                    <div class="summary">
-                                        NATO leaders recently said they are "further strengthening our ability to deter
-                                        and defend with an appropriate mix of nuclear, conventional, and missile defense
-                                        capabilities."
-                                    </div>
-                                </article>
-                            </div>
-
-                            <div id="home-featured-culture" class="feature-2 order-2">
-                                <div class="block-title">
-                                    <a href="#">Culture & Travel</a>
+                        </div>
+                        <div class="col-sm-7">
+                            <div class="flex-sm fd-c sticky2">
+                                <div id="home-featured-story" class="feature-2 order-1">
+                                    <h2 class="block-title">Top Story</h2>
+                                    <article>
+                                        <div class="wrap">
+                                            <div class="category">
+                                                <a href="#">Politics</a>
+                                            </div>
+                                            <div class="image">
+                                                <img src="https://d.newsweek.com/en/full/1553141/boris-johnson.jpg?w=591&h=364&f=65204018ea18875741bc782905fd803a"
+                                                    alt="image">
+                                            </div>
+                                        </div>
+                                        <h1 class="h2">
+                                            <a href="#">
+                                                Americans React As Conservatives Achieve Landslide at U.K. Election
+                                            </a>
+                                        </h1>
+                                        <div class="summary">
+                                            American political pundits offered their initial reactions to news that it
+                                            appears U.K. Prime Minister Boris Johnson's Conservative Party is on course
+                                            for
+                                            a landslide victory in the country's general election.
+                                        </div>
+                                    </article>
                                 </div>
 
-                                <div class="topic-items flex-sm flex-wrap">
-                                    <div class="topic-item">
+                                <div id="home-featured-more" class="feature-2 order-3">
+                                    <h2 class="block-title">More Stories</h2>
+
+                                    <article class="clearfix">
                                         <div class="image">
                                             <a href="#">
-                                                <img src="https://d.newsweek.com/en/full/1552620/union-square-nyc-hero-pic.webp?w=397&h=265&f=3e0409e0c163af18f28fd17ab0f88192"
+                                                <img src="https://d.newsweek.com/en/full/1552871/farmworker.webp?w=135&h=90&f=f6bbe552bc68f5ecb39c67a289926c3f"
+                                                    alt="iamge">
+                                            </a>
+                                        </div>
+                                        <h4>
+                                            <a href="#">
+                                                House Passes Bill Giving Undocumented Farm Workers Path to Citizenship
+                                            </a>
+                                        </h4>
+                                        <div class="summary">
+                                            "We need to see more of this kind of compromise," said Ali Noorani,
+                                            executive
+                                            director of the National Immigration Forum.
+                                        </div>
+                                    </article>
+
+                                    <article class="clearfix">
+                                        <div class="image">
+                                            <a href="#">
+                                                <img src="https://d.newsweek.com/en/full/1552126/pelosi-delivers-solemn-impeachment-articles-announcement.webp?w=135&h=90&f=a8efbf10dacadb28bd4da499e096c268"
+                                                    alt="iamge">
+                                            </a>
+                                        </div>
+                                        <h4>
+                                            <a href="#">
+                                                Impeachment Hearings Have Done Nothing to Change Republican Minds: Poll
+                                            </a>
+                                        </h4>
+                                        <div class="summary">
+                                            A YouGov poll reported 47 percent support for impeachment among 1,500
+                                            adults,
+                                            while 45 percent agreed that the president withheld Ukraine's military aid
+                                            in
+                                            exchange for a Biden investigation.
+                                        </div>
+                                    </article>
+
+                                    <article class="clearfix">
+                                        <div class="image">
+                                            <a href="#">
+                                                <img src="https://d.newsweek.com/en/full/1552048/alexandria-ocasio-cortez-state-union.webp?w=135&h=90&l=48&t=38&f=f016291b4aaefa2fabc7ed2cd22c7ecc"
                                                     alt="">
                                             </a>
                                         </div>
-                                        <div class="info">
-                                            <div class="title">
-                                                <a href="#">
-                                                    Get in the Spirit at the Best Holiday Markets in the U.S.
-                                                </a>
-                                            </div>
-                                            <div class="summary">
-                                                The snowy streets of Europe aren't the only places to shop for gifts
-                                                while sipping on hot chocolate. Stay stateside and visit these holiday
-                                                markets for a wintry wonderful shopping experience.
-                                            </div>
-                                            <div class="tags">
-                                                <a href="#">
-                                                    holidays
-                                                </a>
-                                            </div>
+                                        <h4>
+                                            <a href="#">
+                                                Alexandria Ocasio-Cortez Is Fourth Most Tweeted About Politician in the
+                                                World
+                                            </a>
+                                        </h4>
+                                        <div class="summary">
+                                            The freshman representative from New York was also more tweeted about than
+                                            major
+                                            world leaders, including Emmanuel Macron, Vladimir Putin and Jair
+                                            Bolosonaro.
                                         </div>
+                                    </article>
+
+                                    <article class="clearfix">
+                                        <div class="image">
+                                            <a href="#">
+                                                <img src="https://d.newsweek.com/en/full/1553152/vatican-catholic-church.webp?w=135&h=90&f=8eb590fa497955c33cebe0b0fd3fa22e"
+                                                    alt="">
+                                            </a>
+                                        </div>
+                                        <h4>
+                                            <a href="#">
+                                                Vatican official sees no link between homosexuality and pedophilia
+                                            </a>
+                                        </h4>
+                                        <div class="summary">
+                                            Vatican official Jodi Bertomeu Farnos wrote there is no link between
+                                            celibacy or
+                                            homosexuality with the current rash of child sex abuse cases in the Catholic
+                                            church.
+                                        </div>
+                                    </article>
+
+                                    <article class="clearfix">
+                                        <div class="image">
+                                            <a href="#">
+                                                <img src="https://d.newsweek.com/en/full/1552021/twitter-game-thrones.webp?w=135&h=90&l=46&t=50&f=a410e700e33d3beb850f46acdef406a1"
+                                                    alt="">
+                                            </a>
+                                        </div>
+                                        <h4>
+                                            <a href="#">
+                                                'Game of Thrones,' 'Stranger Things' Revealed as 2019's Most Tweeted
+                                                Shows
+                                            </a>
+                                        </h4>
+                                        <div class="summary">
+                                            Twitter has revealed the 10 most-discussed TV series this year, which
+                                            include
+                                            some of Netflix's biggest shows plus the controversial final series of "Game
+                                            of
+                                            Thrones."
+                                        </div>
+                                    </article>
+
+                                    <article class="clearfix">
+                                        <div class="image">
+                                            <a href="#">
+                                                <img src="https://d.newsweek.com/en/full/1551887/afgpapers-9dec2019.webp?w=135&h=90&f=51a8865fc79beb713a429c98cf902514"
+                                                    alt="">
+                                            </a>
+                                        </div>
+                                        <h4>
+                                            <a href="#">
+                                                Afghan War Report Enrages Vets: 'Even As More of Us Died, They Lied'
+                                            </a>
+                                        </h4>
+                                        <div class="summary">
+                                            Veterans and Gold Star families responded with anger and frustration to a
+                                            report
+                                            in The Washington Post that details how presidents, politicians and Pentagon
+                                            officials misled the American public about the war effort.
+                                        </div>
+                                    </article>
+
+                                    <article class="clearfix">
+                                        <div class="image">
+                                            <a href="#">
+                                                <img src="https://d.newsweek.com/en/full/1552038/immigration-protest.webp?w=135&h=90&f=e56a225f5265bff6b90e0f903b6cd702"
+                                                    alt="">
+                                            </a>
+                                        </div>
+                                        <h4>
+                                            <a href="#">
+                                                Doctors Barred From Giving Migrants Free Flu Shots Vow to Return Each
+                                                Day
+                                            </a>
+                                        </h4>
+                                        <div class="summary">
+                                            "People are needlessly suffering and dying," said Dr. Marie DeLuca, one of
+                                            the
+                                            doctors offering free flu vaccinations.
+                                        </div>
+                                    </article>
+
+                                    <article class="clearfix">
+                                        <div class="image">
+                                            <a href="#">
+                                                <img src="https://d.newsweek.com/en/full/1551923/volodymyr-zelenskiy.webp?w=135&h=90&f=f77330136ddf052d2ce7d30816145afe"
+                                                    alt="">
+                                            </a>
+                                        </div>
+                                        <h4>
+                                            <a href="#">
+                                                Zelenskiy Says Russia-Ukraine Cease-Fire Possible by Year's End
+                                            </a>
+                                        </h4>
+                                        <div class="summary">
+                                            Ukrainian President Volodymyr Zelenskiy made the assertion at a meeting of
+                                            world
+                                            leaders in Paris.
+                                        </div>
+                                    </article>
+
+                                    <article class="clearfix">
+                                        <div class="image">
+                                            <a href="#">
+                                                <img src="https://d.newsweek.com/en/full/1551955/boris-johnson.jpg?w=135&h=90&f=785e865893ded87b04496848a42d4eee"
+                                                    alt="">
+                                            </a>
+                                        </div>
+                                        <h4>
+                                            <a href="#">
+                                                Boris Johnson Imitates Famous 'Love, Actually' Scene in Election Ad
+                                            </a>
+                                        </h4>
+                                        <div class="summary">
+                                            In preparation for the general election, Johnson has created an ad campaign
+                                            that
+                                            parodies a famous scene in the movie, while Hugh Grant, who stars in the
+                                            film,
+                                            goes door to door for Johnson's Liberal Democrat opponents.
+                                        </div>
+                                    </article>
+
+                                    <article class="clearfix">
+                                        <div class="image">
+                                            <a href="#">
+                                                <img src="https://d.newsweek.com/en/full/1553015/nato-alliance-drills-military-alliance-norway.webp?w=135&h=90&f=6b7329b24bcd81532483544d89cae1b8"
+                                                    alt="">
+                                            </a>
+                                        </div>
+                                        <h4>
+                                            <a href="#">
+                                                Russia Hits Back at U.S., Allies Trying to Dominate 'Land, Air, Sea,
+                                                Space'
+                                            </a>
+                                        </h4>
+                                        <div class="summary">
+                                            NATO leaders recently said they are "further strengthening our ability to
+                                            deter
+                                            and defend with an appropriate mix of nuclear, conventional, and missile
+                                            defense
+                                            capabilities."
+                                        </div>
+                                    </article>
+                                </div>
+
+                                <div id="home-featured-culture" class="feature-2 order-2">
+                                    <div class="block-title">
+                                        <a href="#">Culture & Travel</a>
                                     </div>
 
-                                    <div class="topic-item">
-                                        <div class="image">
-                                            <a href="#">
-                                                <img src="https://d.newsweek.com/en/full/1548530/cao-lau.webp?w=397&h=265&f=0156e3366e2da77b5edad9dbbed56279"
-                                                    alt="">
-                                            </a>
-                                        </div>
-                                        <div class="info">
-                                            <div class="title">
+                                    <div class="topic-items flex-sm flex-wrap">
+                                        <div class="topic-item">
+                                            <div class="image">
                                                 <a href="#">
-                                                    Food Worth Getting on a Plane For
+                                                    <img src="https://d.newsweek.com/en/full/1552620/union-square-nyc-hero-pic.webp?w=397&h=265&f=3e0409e0c163af18f28fd17ab0f88192"
+                                                        alt="">
                                                 </a>
                                             </div>
-                                            <div class="summary">
-                                                We're talking about dishes that are best in their own environment, that
-                                                don't travel so well. Here is our highly subjective list of dishes that
-                                                are worth traveling for around the world.
-                                            </div>
-                                            <div class="tags">
-                                                <a href="#">
-                                                    Food
-                                                </a>
+                                            <div class="info">
+                                                <div class="title">
+                                                    <a href="#">
+                                                        Get in the Spirit at the Best Holiday Markets in the U.S.
+                                                    </a>
+                                                </div>
+                                                <div class="summary">
+                                                    The snowy streets of Europe aren't the only places to shop for gifts
+                                                    while sipping on hot chocolate. Stay stateside and visit these
+                                                    holiday
+                                                    markets for a wintry wonderful shopping experience.
+                                                </div>
+                                                <div class="tags">
+                                                    <a href="#">
+                                                        holidays
+                                                    </a>
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
 
-                                    <div class="topic-item">
-                                        <div class="image">
-                                            <a href="#">
-                                                <img src="https://d.newsweek.com/en/full/1549016/cul-map-bookstores-banner.webp?w=397&h=265&l=50&t=53&f=70d2c9aaa091b9b38f00a59b706ff4e1"
-                                                    alt="">
-                                            </a>
-                                        </div>
-                                        <div class="info">
-                                            <div class="title">
+                                        <div class="topic-item">
+                                            <div class="image">
                                                 <a href="#">
-                                                    Stunning Bookstores Worth Visiting Around the World
+                                                    <img src="https://d.newsweek.com/en/full/1548530/cao-lau.webp?w=397&h=265&f=0156e3366e2da77b5edad9dbbed56279"
+                                                        alt="">
                                                 </a>
                                             </div>
-                                            <div class="summary">
-                                                Books have always had the ability to transport readers, whisking them
-                                                away to faraway lands. Cozy up and plot your next getaway at these
-                                                unique bookstores around the world.
-                                            </div>
-                                            <div class="tags">
-                                                <a href="#">
-                                                    Travel
-                                                </a>
+                                            <div class="info">
+                                                <div class="title">
+                                                    <a href="#">
+                                                        Food Worth Getting on a Plane For
+                                                    </a>
+                                                </div>
+                                                <div class="summary">
+                                                    We're talking about dishes that are best in their own environment,
+                                                    that
+                                                    don't travel so well. Here is our highly subjective list of dishes
+                                                    that
+                                                    are worth traveling for around the world.
+                                                </div>
+                                                <div class="tags">
+                                                    <a href="#">
+                                                        Food
+                                                    </a>
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
 
-                                    <div class="topic-item">
-                                        <div class="image">
-                                            <a href="#">
-                                                <img src="https://d.newsweek.com/en/full/1550146/krampus-parade-salzburg-austria.webp?w=397&h=265&f=0df29427fff3fa2af545fbc469fc587d"
-                                                    alt="">
-                                            </a>
+                                        <div class="topic-item">
+                                            <div class="image">
+                                                <a href="#">
+                                                    <img src="https://d.newsweek.com/en/full/1549016/cul-map-bookstores-banner.webp?w=397&h=265&l=50&t=53&f=70d2c9aaa091b9b38f00a59b706ff4e1"
+                                                        alt="">
+                                                </a>
+                                            </div>
+                                            <div class="info">
+                                                <div class="title">
+                                                    <a href="#">
+                                                        Stunning Bookstores Worth Visiting Around the World
+                                                    </a>
+                                                </div>
+                                                <div class="summary">
+                                                    Books have always had the ability to transport readers, whisking
+                                                    them
+                                                    away to faraway lands. Cozy up and plot your next getaway at these
+                                                    unique bookstores around the world.
+                                                </div>
+                                                <div class="tags">
+                                                    <a href="#">
+                                                        Travel
+                                                    </a>
+                                                </div>
+                                            </div>
                                         </div>
-                                        <div class="info">
-                                            <div class="title">
+
+                                        <div class="topic-item">
+                                            <div class="image">
                                                 <a href="#">
-                                                    Unusual Christmas Traditions Around the World
+                                                    <img src="https://d.newsweek.com/en/full/1550146/krampus-parade-salzburg-austria.webp?w=397&h=265&f=0df29427fff3fa2af545fbc469fc587d"
+                                                        alt="">
                                                 </a>
                                             </div>
-                                            <div class="summary">
-                                                Christmas isn't just an odd holiday in North America. All over the
-                                                world, people celebrate in wacky ways on December 25, such as
-                                                rollerblading to church in Venezuela and making a reservation at KFC for
-                                                Christmas Eve dinner in Japan.
-                                            </div>
-                                            <div class="tags">
-                                                <a href="#">
-                                                    Christmas
-                                                </a>
+                                            <div class="info">
+                                                <div class="title">
+                                                    <a href="#">
+                                                        Unusual Christmas Traditions Around the World
+                                                    </a>
+                                                </div>
+                                                <div class="summary">
+                                                    Christmas isn't just an odd holiday in North America. All over the
+                                                    world, people celebrate in wacky ways on December 25, such as
+                                                    rollerblading to church in Venezuela and making a reservation at KFC
+                                                    for
+                                                    Christmas Eve dinner in Japan.
+                                                </div>
+                                                <div class="tags">
+                                                    <a href="#">
+                                                        Christmas
+                                                    </a>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
 
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
             <div class="col-md-4 content-right">
-                <div class="opinion">
-                    <div class="feature-2 subfeature-2">
-                        <h2 class="block-title">
-                            <a href="#">
-                                Opinion
+                <div id="sticky3">
+                    <div class="opinion">
+                        <div class="feature-2 subfeature-2">
+                            <h2 class="block-title">
+                                <a href="#">
+                                    Opinion
+                                </a>
+                            </h2>
+                            <article class="flex-xs">
+                                <div class="image headshot">
+                                    <a href="#">
+                                        <img src="https://d.newsweek.com/en/full/1507272/newt-gingrich-joe-desantis.webp?w=63&h=63&f=1116a1a353a1b965077c9362ecb6fde4"
+                                            alt="">
+                                    </a>
+                                </div>
+                                <div class="info">
+                                    <a href="#">
+                                        Expanding Telehealth in Medicare Could Be Revolutionary
+                                    </a>
+                                    <div class="opinion-author">
+                                        BY NEWT GINGRICH AND JOE DESANTIS
+                                    </div>
+                                </div>
+                            </article>
+
+                            <article class="flex-xs">
+                                <div class="image headshot">
+                                    <a href="#">
+                                        <img src="https://d.newsweek.com/en/full/83015/david-miliband.webp?w=63&h=63&f=103377059a2a80fbfa249e4a61c40464"
+                                            alt="">
+                                    </a>
+                                </div>
+                                <div class="info">
+                                    <a href="#">
+                                        Trump's Border Policy Combines a Crisis With Cruelty. Here's How to Fix It
+                                    </a>
+                                    <div class="opinion-author">
+                                        BY DAVID MILIBAND
+                                    </div>
+                                </div>
+                            </article>
+
+                            <article class="flex-xs">
+                                <div class="image headshot">
+                                    <a href="#">
+                                        <img src="https://d.newsweek.com/en/full/1552344/tom-steyer.webp?w=63&h=63&f=25c21e3b4dcc1f79240afb1c88826abc"
+                                            alt="">
+                                    </a>
+                                </div>
+                                <div class="info">
+                                    <a href="#">
+                                        To Break the Corporate Stranglehold on Politics, Congress Needs Term Limits
+                                    </a>
+                                    <div class="opinion-author">
+                                        BY TOM STEYER
+                                    </div>
+                                </div>
+                            </article>
+
+                            <article class="flex-xs">
+                                <div class="image headshot">
+                                    <a href="#">
+                                        <img src="https://d.newsweek.com/en/full/97976/robert-reich.webp?w=63&h=63&f=297351a03eaa549128026042394c9580"
+                                            alt="">
+                                    </a>
+                                </div>
+                                <div class="info">
+                                    <a href="#">
+                                        Is the Anti-Democratic Decade Finally Drawing to a Close?
+                                    </a>
+                                    <div class="opinion-author">
+                                        BY ROBERT REICH
+                                    </div>
+                                </div>
+                            </article>
+
+                            <article class="flex-xs">
+                                <div class="image headshot">
+                                    <a href="#">
+                                        <img src="https://d.newsweek.com/en/full/1552231/bergen-cooper.webp?w=63&h=63&f=006b974931523fd4d0e8379c46227f15"
+                                            alt="">
+                                    </a>
+                                </div>
+                                <div class="info">
+                                    <a href="#">
+                                        The Trump Administration's Grades for Sexual and Reproductive Rights Are In
+                                    </a>
+                                    <div class="opinion-author">
+                                        BY BERGEN COOPER
+                                    </div>
+                                </div>
+                            </article>
+
+                            <article class="flex-xs">
+                                <div class="image headshot">
+                                    <a href="#">
+                                        <img src="https://d.newsweek.com/en/full/109198/lee-habeeb.webp?w=63&h=63&f=dd1164c722d99b834fc2f3f410f433d4"
+                                            alt="">
+                                    </a>
+                                </div>
+                                <div class="info">
+                                    <a href="#">
+                                        'Very Ralph' Is a Celebration of an Absolutely American Fashion Icon
+                                    </a>
+                                    <div class="opinion-author">
+                                        BY LEE HABEEB
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+
+                    <div class="latest-news">
+                        <div class="feature-2 subfeature-2">
+                            <h2 class="block-title">
+                                <a href="#">
+                                    Latest News
+                                </a>
+                            </h2>
+                            <article class="flex-xs">
+                                <div class="image">
+                                    <a href="#">
+                                        <img src="https://d.newsweek.com/en/full/1553170/lamar-jackson-baltimore-ravens.webp?w=397&h=265&f=14d1c14ce9f8d7dec67d07e4567d2dad"
+                                            alt="">
+                                    </a>
+                                </div>
+                                <div class="info">
+                                    <a href="#">
+                                        Tom Brady Challenges Lamar Jackson to 40-yard Dash as Ravens QB Sets Record
+                                    </a>
+                                </div>
+                            </article>
+
+                            <article class="flex-xs">
+                                <div class="image">
+                                    <a href="#">
+                                        <img src="https://d.newsweek.com/en/full/1552192/itunes-top-100-list-hints-voice-2019-top-4.png?w=397&h=265&f=7da92085e3474c43307d0e20cfc36ed3"
+                                            alt="">
+                                    </a>
+                                </div>
+                                <div class="info">
+                                    <a href="#">
+                                        iTunes Top 100 List Hints at 'The Voice' 2019 Top 4
+                                    </a>
+                                </div>
+                            </article>
+
+                            <article class="flex-xs">
+                                <div class="image">
+                                    <a href="#">
+                                        <img src="https://d.newsweek.com/en/full/1553149/full-moon.webp?w=397&h=265&f=5e4eca4fcad48b05dfa1c023a0d61dc5"
+                                            alt="">
+                                    </a>
+                                </div>
+                                <div class="info">
+                                    <a href="#">
+                                        Mother Gives Birth at 12:12 a.m. on December 12, During Full Moon
+                                    </a>
+                                </div>
+                            </article>
+
+                            <article class="flex-xs">
+                                <div class="image">
+                                    <a href="#">
+                                        <img src="https://d.newsweek.com/en/full/1553059/donald-trump.webp?w=397&h=265&f=e32fbc29f780875e5d5b100735f4c24d"
+                                            alt="">
+                                    </a>
+                                </div>
+                                <div class="info">
+                                    <a href="#">
+                                        This Is the Third Impeachment I've Worked On. It's by Far the Most Serious
+                                    </a>
+                                </div>
+                            </article>
+
+                            <article class="flex-xs">
+                                <div class="image">
+                                    <a href="#">
+                                        <img src="https://d.newsweek.com/en/full/1552821/michael-van-gerwen-pdc-world-darts-championship.webp?w=397&h=265&f=2a900d49369b6f999964c735eaa5bc5d"
+                                            alt="">
+                                    </a>
+                                </div>
+                                <div class="info">
+                                    <a href="#">
+                                        PDC World Darts Championship: Format Explained, Best Odds and Picks
+                                    </a>
+                                </div>
+                            </article>
+
+                            <article class="flex-xs">
+                                <div class="image">
+                                    <a href="#">
+                                        <img src="https://d.newsweek.com/en/full/1553137/adam-schiff-democratic-leaders.webp?w=397&h=265&f=63dd28c81aaee5741e38ce18f8664121"
+                                            alt="">
+                                    </a>
+                                </div>
+                                <div class="info">
+                                    <a href="#">
+                                        Democrats Are Going to Push This Soviet-Style Show Trial to the End
+                                    </a>
+                                </div>
+                            </article>
+
+                            <article class="flex-xs">
+                                <div class="image">
+                                    <a href="#">
+                                        <img src="https://d.newsweek.com/en/full/1552185/menorah-lighting.webp?w=397&h=265&f=1672b6130a29b7b909772b8fec6d93be"
+                                            alt="">
+                                    </a>
+                                </div>
+                                <div class="info">
+                                    <a href="#">
+                                        2019 December Holidays—Christmas, Hanukkah, Kwanzaa, Winter Solstice Dates
+                                    </a>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+
+                    <div class="newsletter">
+                        <div class="newsletter-signup">
+                            <div class="n-title flex-xs align-items-center">
+                                <span class="icon-n"></span>
+                                Sign up for our Newsletter
+                            </div>
+                            <a href="#" class="left-arrow">
+                                Sign up
                             </a>
-                        </h2>
-                        <article class="flex-xs">
-                            <div class="image headshot">
+                            <a href="#">
+                                Update your preferences »
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="in-the-magazine">
+            <div class="flex-sm row">
+                <div class="col-md-3">
+                    <div class="wrap">
+                        <div class="image">
+                            <a href="#">
+                                <img src="https://d.newsweek.com/en/full/1552351/december-20-2019.webp?w=290&h=387&q=90&f=323b7d3036fe97160306889ff10fa09e"
+                                    alt="">
+                            </a>
+                        </div>
+                        <div class="category">
+                            <a href="#">
+                                DECEMBER 20 ISSUE
+                            </a>
+                        </div>
+                    </div>
+                    <a href="#" class="grey-link">
+                        See All Features
+                    </a>
+                </div>
+
+                <div class="col-md-9">
+                    <div class="n-title flex-xs justify-content-center align-items-center">
+                        <span class="icon-n"></span>
+                        IN THE MAGAZINE
+                    </div>
+                    <div class="row">
+                        <article class="col-sm-4">
+                            <div class="image">
                                 <a href="#">
-                                    <img src="https://d.newsweek.com/en/full/1507272/newt-gingrich-joe-desantis.webp?w=63&h=63&f=1116a1a353a1b965077c9362ecb6fde4"
-                                        alt="">
+                                    <div class="image-wrap">
+                                        <img src="https://d.newsweek.com/en/full/1552796/fe-dramazon-sb-drgoogle-banner.webp?w=466&h=311&l=56&t=45&q=90&f=41c24c9e96e46d3fd12b75b23d08710c"
+                                            alt="">
+                                    </div>
+                                    <span class="overlay article-overlay"></span>
                                 </a>
                             </div>
-                            <div class="info">
-                                <a href="#">
-                                    Expanding Telehealth in Medicare Could Be Revolutionary
-                                </a>
-                                <div class="opinion-author">
-                                    BY NEWT GINGRICH AND JOE DESANTIS
-                                </div>
+                            <div class="category">
+                                <span>
+                                    FEATURES
+                                </span>
+                                <span>
+                                    <a href="#">
+                                        HEALTH
+                                    </a>
+                                </span>
                             </div>
+                            <h5>
+                                <a href="#" class="article-link">
+                                    Google Doesn't Want To Revolutionize Health Care, It Just Wants To Tweak it
+                                    <span class="overlay article-overlay"></span>
+                                </a>
+                            </h5>
                         </article>
 
-                        <article class="flex-xs">
-                            <div class="image headshot">
+                        <article class="col-sm-4">
+                            <div class="image">
                                 <a href="#">
-                                    <img src="https://d.newsweek.com/en/full/83015/david-miliband.webp?w=63&h=63&f=103377059a2a80fbfa249e4a61c40464"
-                                        alt="">
+                                    <div class="image-wrap">
+                                        <img src="https://d.newsweek.com/en/full/1552304/fe-jimmywales-01-450700954-banner.webp?w=466&h=311&l=54&t=47&q=90&f=2d292f2489a2a529a519ae0f06754fda"
+                                            alt="">
+                                    </div>
+                                    <span class="overlay article-overlay"></span>
                                 </a>
                             </div>
-                            <div class="info">
-                                <a href="#">
-                                    Trump's Border Policy Combines a Crisis With Cruelty. Here's How to Fix It
-                                </a>
-                                <div class="opinion-author">
-                                    BY DAVID MILIBAND
-                                </div>
+                            <div class="category">
+                                <span>
+                                    FEATURES
+                                </span>
+                                <span>
+                                    <a href="#">
+                                        TECH & SCIENCE
+                                    </a>
+                                </span>
                             </div>
+                            <h5>
+                                <a href="#" class="article-link">
+                                    Wikipedia Founder Jimmy Wales is Taking on Facebook and the Rise of AI
+                                    <span class="overlay article-overlay"></span>
+                                </a>
+                            </h5>
                         </article>
 
-                        <article class="flex-xs">
-                            <div class="image headshot">
+                        <article class="col-sm-4">
+                            <div class="image">
                                 <a href="#">
-                                    <img src="https://d.newsweek.com/en/full/1552344/tom-steyer.webp?w=63&h=63&f=25c21e3b4dcc1f79240afb1c88826abc"
-                                        alt="">
+                                    <div class="image-wrap">
+                                        <img src="https://d.newsweek.com/en/full/1549022/cul-ps-brosnahan-banner.webp?w=466&h=311&l=48&t=38&q=90&f=94f1c9dae6900e13d47be59f03a00334"
+                                            alt="">
+                                    </div>
+                                    <span class="overlay article-overlay"></span>
                                 </a>
                             </div>
-                            <div class="info">
-                                <a href="#">
-                                    To Break the Corporate Stranglehold on Politics, Congress Needs Term Limits
-                                </a>
-                                <div class="opinion-author">
-                                    BY TOM STEYER
-                                </div>
+                            <div class="category">
+                                <span>
+                                    Downtime
+                                </span>
+                                <span>
+                                    <a href="#">
+                                        CULTURE
+                                    </a>
+                                </span>
                             </div>
-                        </article>
-
-                        <article class="flex-xs">
-                            <div class="image headshot">
-                                <a href="#">
-                                    <img src="https://d.newsweek.com/en/full/97976/robert-reich.webp?w=63&h=63&f=297351a03eaa549128026042394c9580"
-                                        alt="">
+                            <h5>
+                                <a href="#" class="article-link">
+                                    Rachel Brosnahan on Women in Comedy and Mom Shaming
+                                    <span class="overlay article-overlay"></span>
                                 </a>
-                            </div>
-                            <div class="info">
-                                <a href="#">
-                                    Is the Anti-Democratic Decade Finally Drawing to a Close?
-                                </a>
-                                <div class="opinion-author">
-                                    BY ROBERT REICH
-                                </div>
-                            </div>
-                        </article>
-
-                        <article class="flex-xs">
-                            <div class="image headshot">
-                                <a href="#">
-                                    <img src="https://d.newsweek.com/en/full/1552231/bergen-cooper.webp?w=63&h=63&f=006b974931523fd4d0e8379c46227f15"
-                                        alt="">
-                                </a>
-                            </div>
-                            <div class="info">
-                                <a href="#">
-                                    The Trump Administration's Grades for Sexual and Reproductive Rights Are In
-                                </a>
-                                <div class="opinion-author">
-                                    BY BERGEN COOPER
-                                </div>
-                            </div>
-                        </article>
-
-                        <article class="flex-xs">
-                            <div class="image headshot">
-                                <a href="#">
-                                    <img src="https://d.newsweek.com/en/full/109198/lee-habeeb.webp?w=63&h=63&f=dd1164c722d99b834fc2f3f410f433d4"
-                                        alt="">
-                                </a>
-                            </div>
-                            <div class="info">
-                                <a href="#">
-                                    'Very Ralph' Is a Celebration of an Absolutely American Fashion Icon
-                                </a>
-                                <div class="opinion-author">
-                                    BY LEE HABEEB
-                                </div>
-                            </div>
+                            </h5>
                         </article>
                     </div>
                 </div>
+            </div>
 
-                <div class="latest-news">
-                    <div class="feature-2 subfeature-2">
-                        <h2 class="block-title">
+            <div class="row bottom">
+                <article class="col-sm-3">
+                    <div class="image">
+                        <a href="#">
+                            <div class="image-wrap">
+                                <img src="https://d.newsweek.com/en/full/1552314/per-salary-banner.webp?w=466&h=311&l=50&t=43&q=90&f=2186facaa395f2caed7d3d0fe42fcf9d"
+                                    alt="">
+                            </div>
+                            <span class="overlay article-overlay"></span>
+                        </a>
+                    </div>
+
+                    <div class="category">
+                        <span>
+                            PERISCOPE
+                        </span>
+                        <span>
                             <a href="#">
-                                Latest News
+                                CULTURE
                             </a>
-                        </h2>
+                        </span>
+                    </div>
+                    <h5>
+                        <a href="#" class="article-link">
+                            How Much Do You Make? Here's Why We All Should Answer
+                            <span class="overlay article-overlay"></span>
+                        </a>
+                    </h5>
+                </article>
+
+                <article class="col-sm-3">
+                    <div class="image">
+                        <a href="#">
+                            <div class="image-wrap">
+                                <img src="https://d.newsweek.com/en/full/1552298/cul-kaceymusgraves-01-1183498174-banner.webp?w=466&h=311&l=49&t=25&q=90&f=cf9171a0c55e814d0fd50741ff506236"
+                                    alt="">
+                            </div>
+                            <span class="overlay article-overlay"></span>
+                        </a>
+                    </div>
+
+                    <div class="category">
+                        <span>
+                            Downtime
+                        </span>
+                        <span>
+                            <a href="#">
+                                CULTURE
+                            </a>
+                        </span>
+                    </div>
+                    <h5>
+                        <a href="#" class="article-link">
+                            What's Next After Kacey Musgraves' Golden Year?
+                            <span class="overlay article-overlay"></span>
+                        </a>
+                    </h5>
+                </article>
+
+                <article class="col-sm-3">
+                    <div class="image">
+                        <a href="#">
+                            <div class="image-wrap">
+                                <img src="https://d.newsweek.com/en/full/1552303/cul-ps-harper-banner.webp?w=466&h=311&l=44&t=40&q=90&f=fa181d4793b943b2c54641922a637558"
+                                    alt="">
+                            </div>
+                            <span class="overlay article-overlay"></span>
+                        </a>
+                    </div>
+
+                    <div class="category">
+                        <span>
+                            Downtime
+                        </span>
+                        <span>
+                            <a href="#">
+                                Culture
+                            </a>
+                        </span>
+                    </div>
+                    <h5>
+                        <a href="#" class="article-link">
+                            What 'The Good Place' Taught Star William Jackson Harper
+                            <span class="overlay article-overlay"></span>
+                        </a>
+                    </h5>
+                </article>
+
+                <article class="col-sm-3">
+                    <div class="image">
+                        <a href="#">
+                            <div class="image-wrap">
+                                <img src="https://d.newsweek.com/en/full/1549041/where-theres-smoke.webp?w=480&h=320&q=90&f=f8a52e15e4b61f3a8af5def430a67720"
+                                    alt="">
+                            </div>
+                            <span class="overlay article-overlay"></span>
+                        </a>
+                    </div>
+
+                    <div class="category">
+                        <span>
+                            In Focus
+                        </span>
+                        <span>
+                            <a href="#">
+
+                            </a>
+                        </span>
+                    </div>
+                    <h5>
+                        <a href="#" class="article-link">
+                            WHERE THERE’S SMOKE
+                            <span class="overlay article-overlay"></span>
+                        </a>
+                    </h5>
+                </article>
+            </div>
+        </div>
+
+        <div class="editor-picks">
+            <div class="n-title flex-xs justify-content-center align-items-center">
+                <span class="icon-n"></span>
+                EDITOR'S PICK
+            </div>
+            <div class="feature-2 flex-sm flex-wrap row">
+                <article class="col-sm-6 col-md-3">
+                    <div class="wrap">
+                        <div class="category">
+                            <a href="#">
+                                TECH & SCIENCE
+                            </a>
+                        </div>
+                        <div class="image">
+                            <a href="#">
+                                <img src="https://d.newsweek.com/en/full/1551824/when-lambs-become-lions.webp?w=397&h=265&f=1fbc66fb7da2e62ab58ac1947a5caf10"
+                                    alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <h3>
+                        <a href="#">
+                            Filmmaker Reveals Reality of Elephant Poaching in Candid New Documentary
+                        </a>
+                    </h3>
+                    <div class="summary">
+                        New documentary "When Lambs Become Lions" follows elephant poachers and the rangers trying to
+                        stop them.
+                    </div>
+                </article>
+
+                <article class="col-sm-6 col-md-3">
+                    <div class="wrap">
+                        <div class="category">
+                            <a href="#">
+                                TECH & SCIENCE
+                            </a>
+                        </div>
+                        <div class="image">
+                            <a href="#">
+                                <img src="https://d.newsweek.com/en/full/1552872/apple-mac-pro.webp?w=397&h=265&f=e5d50cedd27121b82c0fede2a35de386"
+                                    alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <h3>
+                        <a href="#">
+                            The Apple Mac Pro Can Cost More Than a Tesla Cybertruck, Is It Worth It?
+                        </a>
+                    </h3>
+                    <div class="summary">
+                        Apple, one of the world's biggest consumer tech brands, has released a new computing powerhouse
+                        that costs between $5,999 and more than $52,000. So is it worth the money?
+                    </div>
+                </article>
+
+                <article class="col-sm-6 col-md-3">
+                    <div class="wrap">
+                        <div class="category">
+                            <a href="#">
+                                Health
+                            </a>
+                        </div>
+                        <div class="image">
+                            <a href="#">
+                                <img src="https://d.newsweek.com/en/full/1552937/vaping-e-cigarette-smoking-stock-getty.webp?w=397&h=265&f=29c886a47fe8cc8177c9364ec232afa2"
+                                    alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <h3>
+                        <a href="#">
+                            Mystery Vaping-Related Illness Shouldn't Put People off Using E-Cigarettes
+                        </a>
+                    </h3>
+                    <div class="summary">
+                        Bans could do "more harm than good" by leading people back to smoking, according to experts.
+                    </div>
+                </article>
+
+                <article class="col-sm-6 col-md-3">
+                    <div class="wrap">
+                        <div class="category">
+                            <a href="#">
+                                Health
+                            </a>
+                        </div>
+                        <div class="image">
+                            <a href="#">
+                                <img src="https://d.newsweek.com/en/full/1553002/science-laboratory-stock-getty.webp?w=397&h=265&f=e859e33b24a44bc65e0d101c496b8bd1"
+                                    alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <h3>
+                        <a href="#">
+                            Why Are the U.S. and Russia Still Holding Stocks of Eradicated Smallpox?
+                        </a>
+                    </h3>
+                    <div class="summary">
+                        The global eradication of smallpox in 1979 is considered the greatest achievement of modern
+                        medicine.
+                    </div>
+                </article>
+
+                <article class="col-sm-6 col-md-3">
+                    <div class="wrap">
+                        <div class="category">
+                            <a href="#">
+                                U.S.
+                            </a>
+                        </div>
+                        <div class="image">
+                            <a href="#">
+                                <img src="https://d.newsweek.com/en/full/1552887/matt-bevin.webp?w=397&h=265&f=1f6f1623efd39f8c8b0f25f610ba95f7"
+                                    alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <h3>
+                        <a href="#">
+                            Outgoing Kentucky Governor Pardons Killer Whose Family Hosted Fundraiser
+                        </a>
+                    </h3>
+                    <div class="summary">
+                        Former Kentucky Governor Matt Bevin issued a pardon to Patrick Brian Baker, who was convicted in
+                        the 2014 death of Donald Mills.
+                    </div>
+                </article>
+
+                <article class="col-sm-6 col-md-3">
+                    <div class="wrap">
+                        <div class="category">
+                            <a href="#">
+                                POLITICS
+                            </a>
+                        </div>
+                        <div class="image">
+                            <a href="#">
+                                <img src="https://d.newsweek.com/en/full/1552830/william-barr-attorney-general-trump-eric-holder.webp?w=397&h=265&f=e79306807017a137507fa5a5a3071224"
+                                    alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <h3>
+                        <a href="#">
+                            Barr Is Unfit to Lead DOJ, His Conduct Will Wreak Lasting Damage: Former Attorney General
+                        </a>
+                    </h3>
+                    <div class="summary">
+                        Eric Holder, who was attorney general in the Obama administration, attacked William Barr in an
+                        op-ed for "running political interference for an increasingly lawless president."
+                    </div>
+                </article>
+
+                <article class="col-sm-6 col-md-3">
+                    <div class="wrap">
+                        <div class="category">
+                            <a href="#">
+                                U.S.
+                            </a>
+                        </div>
+                        <div class="image">
+                            <a href="#">
+                                <img src="https://d.newsweek.com/en/full/1552822/donald-trump.webp?w=397&h=265&f=5cf35620cd408a9ab543e0adb3439abf"
+                                    alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <h3>
+                        <a href="#">
+                            Trump's Strong Disapproval Rating Drops Among Independents, Poll Shows
+                        </a>
+                    </h3>
+                    <div class="summary">
+                        Reuters/Ipsos poll shows that public opinion on President Donald Trump among Democrat and
+                        Republican voters has remained relatively steady.
+                    </div>
+                </article>
+
+                <article class="col-sm-6 col-md-3">
+                    <div class="wrap">
+                        <div class="category">
+                            <a href="#">
+                                News
+                            </a>
+                        </div>
+                        <div class="image">
+                            <a href="#">
+                                <img src="https://d.newsweek.com/en/full/1553041/woman-carrying-disposable-plastic-bags.webp?w=397&h=265&f=a08fce8b2bcc576098a475ea0a104e65"
+                                    alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <h3>
+                        <a href="#">
+                            Ohio Republicans Pass Bill to Ban Banning Plastic Bags
+                        </a>
+                    </h3>
+                    <div class="summary">
+                        The Ohio House of Representatives has passed a bill that would prohibit municipalities from
+                        restricting the use of plastic bags.
+                    </div>
+                </article>
+            </div>
+        </div>
+
+        <div class="featured-slideshows">
+            <div class="n-title flex-xs justify-content-center align-items-center">
+                <span class="icon-n"></span>
+                FEATURED SLIDESHOWS
+            </div>
+
+            <div class="row">
+                <article class="col-sm-4">
+                    <div class="image">
+                        <a href="#">
+                            <img src="https://d.newsweek.com/en/full/1547486/lipschutz-living-room-hotel-chelsea.jpg?w=397&h=265&f=fb4270bf5fbc2591cc43d24d0377621d"
+                                alt="">
+                            <span class="overlay article-overlay"></span>
+                        </a>
+                        <a href="#">
+                            12
+                        </a>
+                    </div>
+                    <h4>
+                        <a href="#">
+                            Inside the Last Bohemian Apartments of the Storied Hotel Chelsea
+                            <span class="overlay article-overlay"></span>
+                        </a>
+                    </h4>
+                </article>
+
+                <article class="col-sm-4">
+                    <div class="image">
+                        <a href="#">
+                            <img src="https://d.newsweek.com/en/full/1543106/2018-cup-collection.webp?w=397&h=265&f=e00260b486695409ac860cb50949464c"
+                                alt="">
+                            <span class="overlay article-overlay"></span>
+                        </a>
+                        <a href="#">
+                            25
+                        </a>
+                    </div>
+                    <h4>
+                        <a href="#">
+                            A Look at Every Starbucks Winter Holiday Cup By Year from 1997 to 2019
+                            <span class="overlay article-overlay"></span>
+                        </a>
+                    </h4>
+                </article>
+
+                <article class="col-sm-4">
+                    <div class="image">
+                        <a href="#">
+                            <img src="https://d.newsweek.com/en/full/1542741/holiday-cups-starbucks.webp?w=397&h=265&f=cc7b0a58452583ca846051991fe522ce"
+                                alt="">
+                            <span class="overlay article-overlay"></span>
+                        </a>
+                        <a href="#">
+                            19
+                        </a>
+                    </div>
+                    <h4>
+                        <a href="#">
+                            What Starbucks Christmas Holiday Drinks Are Available This Year?
+                            <span class="overlay article-overlay"></span>
+                        </a>
+                    </h4>
+                </article>
+
+                <article class="col-sm-4">
+                    <div class="image">
+                        <a href="#">
+                            <img src="https://d.newsweek.com/en/full/1539646/first-wives-club-pumpkin.webp?w=397&h=265&f=4a9ecc91f6b122866651645aed974cf6"
+                                alt="">
+                            <span class="overlay article-overlay"></span>
+                        </a>
+                        <a href="#">
+                            12
+                        </a>
+                    </div>
+                    <h4>
+                        <a href="#">
+                            Meet the Master Carver Who Turns Pumpkins Into Portraits
+                            <span class="overlay article-overlay"></span>
+                        </a>
+                    </h4>
+                </article>
+
+                <article class="col-sm-4">
+                    <div class="image">
+                        <a href="#">
+                            <img src="https://d.newsweek.com/en/full/1534277/nycc-2019-best-cosplay-augustus-st-cloud.webp?w=397&h=265&l=22&t=27&f=db0895c475d903e09b054be0c3cfb8c5"
+                                alt="">
+                            <span class="overlay article-overlay"></span>
+                        </a>
+                        <a href="#">
+                            40
+                        </a>
+                    </div>
+                    <h4>
+                        <a href="#">
+                            Our Cosplay Favorites from NYCC 2019
+                            <span class="overlay article-overlay"></span>
+                        </a>
+                    </h4>
+                </article>
+
+                <article class="col-sm-4">
+                    <div class="image">
+                        <a href="#">
+                            <img src="https://d.newsweek.com/en/full/1521879/muir-pass-great-alone.webp?w=397&h=265&f=f340356025a2be1523d3102736a02f42"
+                                alt="">
+                            <span class="overlay article-overlay"></span>
+                        </a>
+                        <a href="#">
+                            7
+                        </a>
+                    </div>
+                    <h4>
+                        <a href="#">
+                            The Great Alone: Walking the Pacific Crest Trail
+                            <span class="overlay article-overlay"></span>
+                        </a>
+                    </h4>
+                </article>
+            </div>
+        </div>
+
+        <div class="news-picks">
+            <h2 class="block-title">
+                <a href="#">
+                    U.S.
+                </a>
+            </h2>
+            <div class="row">
+                <div class="col-sm-4">
+                    <article>
+                        <div class="image">
+                            <a href="#">
+                                <img
+                                    src="https://d.newsweek.com/en/full/1553149/full-moon.jpg?w=397&amp;h=265&amp;f=5e4eca4fcad48b05dfa1c023a0d61dc5">
+                            </a>
+                        </div>
+                        <h4>
+                            <a href="#">
+                                Mother Gives Birth at 12:12 a.m. on December 12, During Full Moon
+                            </a>
+                        </h4>
+                    </article>
+                </div>
+
+                <div class="col-sm-4">
+                    <article>
+                        <div class="image">
+                            <a href="#">
+                                <img
+                                    src="https://d.newsweek.com/en/full/1553132/alex-jones.jpg?w=397&amp;h=265&amp;f=6081518aef92f18cf5d599cea763b5da">
+                            </a>
+                        </div>
+                        <h4>
+                            <a href="#">
+                                Alex Jones Seeks to Dismiss Sandy Hook Lawsuit Over 'Emotional Distress'
+                            </a>
+                        </h4>
+                    </article>
+                </div>
+
+                <div class="col-sm-4">
+                    <div class="feature-2 subfeature-2">
                         <article class="flex-xs">
                             <div class="image">
                                 <a href="#">
@@ -679,82 +1438,360 @@
                                 </a>
                             </div>
                         </article>
-
-                        <article class="flex-xs">
-                            <div class="image">
-                                <a href="#">
-                                    <img src="https://d.newsweek.com/en/full/1553059/donald-trump.webp?w=397&h=265&f=e32fbc29f780875e5d5b100735f4c24d"
-                                        alt="">
-                                </a>
-                            </div>
-                            <div class="info">
-                                <a href="#">
-                                    This Is the Third Impeachment I've Worked On. It's by Far the Most Serious
-                                </a>
-                            </div>
-                        </article>
-
-                        <article class="flex-xs">
-                            <div class="image">
-                                <a href="#">
-                                    <img src="https://d.newsweek.com/en/full/1552821/michael-van-gerwen-pdc-world-darts-championship.webp?w=397&h=265&f=2a900d49369b6f999964c735eaa5bc5d"
-                                        alt="">
-                                </a>
-                            </div>
-                            <div class="info">
-                                <a href="#">
-                                    PDC World Darts Championship: Format Explained, Best Odds and Picks
-                                </a>
-                            </div>
-                        </article>
-
-                        <article class="flex-xs">
-                            <div class="image">
-                                <a href="#">
-                                    <img src="https://d.newsweek.com/en/full/1553137/adam-schiff-democratic-leaders.webp?w=397&h=265&f=63dd28c81aaee5741e38ce18f8664121"
-                                        alt="">
-                                </a>
-                            </div>
-                            <div class="info">
-                                <a href="#">
-                                    Democrats Are Going to Push This Soviet-Style Show Trial to the End
-                                </a>
-                            </div>
-                        </article>
-
-                        <article class="flex-xs">
-                            <div class="image">
-                                <a href="#">
-                                    <img src="https://d.newsweek.com/en/full/1552185/menorah-lighting.webp?w=397&h=265&f=1672b6130a29b7b909772b8fec6d93be"
-                                        alt="">
-                                </a>
-                            </div>
-                            <div class="info">
-                                <a href="#">
-                                    2019 December Holidays—Christmas, Hanukkah, Kwanzaa, Winter Solstice Dates
-                                </a>
-                            </div>
-                        </article>
-                    </div>
-                </div>
-
-                <div class="newsletter">
-                    <div class="newsletter-signup">
-                        <div class="n-title flex-xs align-items-center">
-                            <span class="icon-n"></span>
-                            Sign up for our Newsletter
-                        </div>
-                        <a href="#" class="left-arrow">
-                            Sign up
-                        </a>
-                        <a href="#">
-                                Update your preferences »
-                        </a>
                     </div>
                 </div>
             </div>
+
+            <h2 class="block-title">
+                <a href="#">
+                    World
+                </a>
+            </h2>
+            <div class="row">
+                <div class="col-sm-4">
+                    <article>
+                        <div class="image">
+                            <a href="#">
+                                <img
+                                    src="https://d.newsweek.com/en/full/1553094/two-parakeets-tree-branch.webp?w=397&h=265&f=50f6c376898c23884c6b5d30242e65dd">
+                            </a>
+                        </div>
+                        <h4>
+                            <a href="#">
+                                Study Reveals Jimi Hendrix Not Responsible for Britain's Parakeets
+                            </a>
+                        </h4>
+                    </article>
+                </div>
+
+                <div class="col-sm-4">
+                    <article>
+                        <div class="image">
+                            <a href="#">
+                                <img
+                                    src="https://d.newsweek.com/en/full/1553092/donald-trump-xi-jinping-g20-osaka.webp?w=397&h=265&f=f00bc4eda19b6543ba5be34d063accc2">
+                            </a>
+                        </div>
+                        <h4>
+                            <a href="#">
+                                China and U.S. Believed to Settle on Trade Deal Terms, Reports Say
+                            </a>
+                        </h4>
+                    </article>
+                </div>
+
+                <div class="col-sm-4">
+                    <div class="feature-2 subfeature-2">
+                        <article class="flex-xs">
+                            <div class="image">
+                                <a href="#">
+                                    <img src="https://d.newsweek.com/en/full/1553057/donald-trump-kim-jong-un-hanoi-summit.webp?w=135&h=90&f=26fde549c3139c911dfb4a48eb1e2016"
+                                        alt="">
+                                </a>
+                            </div>
+                            <div class="info">
+                                <a href="#">
+                                    Trump, Kim Jong Un Face Year-End Deal Pressure, But Head Toward Crisis
+                                </a>
+                            </div>
+                        </article>
+
+                        <article class="flex-xs">
+                            <div class="image">
+                                <a href="#">
+                                    <img src="https://d.newsweek.com/en/full/1553173/donald-trump-boris-johnson-nato.webp?w=397&h=265&f=c6fb8a2aafa4c553d71370496ba297e4"
+                                        alt="">
+                                </a>
+                            </div>
+                            <div class="info">
+                                <a href="#">
+                                    Trump Hails Boris Johnson's Election Victory as Chance for 'Massive' Deal
+                                </a>
+                            </div>
+                        </article>
+
+                        <article class="flex-xs">
+                            <div class="image">
+                                <a href="#">
+                                    <img src="https://d.newsweek.com/en/full/1552085/bts-jungkook-jingle-ball-2019.webp?w=397&h=265&f=f9abf3a4c934dec7c89d144faba9645f"
+                                        alt="">
+                                </a>
+                            </div>
+                            <div class="info">
+                                <a href="#">
+                                    BTS Member Jungkook Forwarded to Prosecution Following Car Accident
+                                </a>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+
+            <h2 class="block-title">
+                <a href="#">
+                    Business
+                </a>
+            </h2>
+            <div class="row">
+                <div class="col-sm-4">
+                    <article>
+                        <div class="image">
+                            <a href="#">
+                                <img
+                                    src="https://d.newsweek.com/en/full/1550350/fox-news-carol-roth-millennials.webp?w=397&h=265&f=94b7556131011accfe57c26c3c31d1c3">
+                            </a>
+                        </div>
+                        <h4>
+                            <a href="#">
+                                Fox News: Millennials Like Socialism Because They Don't Understand History
+                            </a>
+                        </h4>
+                    </article>
+                </div>
+
+                <div class="col-sm-4">
+                    <article>
+                        <div class="image">
+                            <a href="#">
+                                <img
+                                    src="https://d.newsweek.com/en/full/1550200/giving-tuesday-charity-donations-taxcut.webp?w=397&h=265&f=d7de5d93e25eb7c111eccbba514a05c3">
+                            </a>
+                        </div>
+                        <h4>
+                            <a href="#">
+                                Giving Tuesday 2019 : Reports Show Trump Tax Cuts Reduced Individual Donors
+                            </a>
+                        </h4>
+                    </article>
+                </div>
+
+                <div class="col-sm-4">
+                    <div class="feature-2 subfeature-2">
+                        <article class="flex-xs">
+                            <div class="image">
+                                <a href="#">
+                                    <img src="https://d.newsweek.com/en/full/1549935/trump-jr-bookstores-triggered-sales.webp?w=135&h=90&f=c7cf9b55dd14b8f1b512b2682d008170"
+                                        alt="">
+                                </a>
+                            </div>
+                            <div class="info">
+                                <a href="#">
+                                    Donald Trump Jr. Claims Airport Bookseller Not Stocking 'Triggered'
+                                </a>
+                            </div>
+                        </article>
+
+                        <article class="flex-xs">
+                            <div class="image">
+                                <a href="#">
+                                    <img src="https://d.newsweek.com/en/full/1549870/fox-trump-economy-black-friday.webp?w=135&h=90&f=249a6af53efa30d362ba9076e75de471"
+                                        alt="">
+                                </a>
+                            </div>
+                            <div class="info">
+                                <a href="#">
+                                    Fox News Claims 'Trump Economy' Black Friday Ended Liberal Recession Hopes
+                                </a>
+                            </div>
+                        </article>
+
+                        <article class="flex-xs">
+                            <div class="image">
+                                <a href="#">
+                                    <img src="https://d.newsweek.com/en/full/1549804/amazon-workers-block-friday-protest-series.webp?w=135&h=90&f=04a4187d7f286a87d735ccf987df7efe"
+                                        alt="">
+                                </a>
+                            </div>
+                            <div class="info">
+                                <a href="#">
+                                    Amazon Black Friday Protests in Europe: What We Know
+                                </a>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+
+            <h2 class="block-title">
+                <a href="#">
+                    Tech & Science
+                </a>
+            </h2>
+            <div class="row">
+                <div class="col-sm-4">
+                    <article>
+                        <div class="image">
+                            <a href="#">
+                                <img
+                                    src="https://d.newsweek.com/en/full/1553192/asteroid.webp?w=397&h=265&f=651c3ce2dc278a788c1162c8b43606bd">
+                            </a>
+                        </div>
+                        <h4>
+                            <a href="#">
+                                2,000-foot-wide Asteroid to Speed Past the Earth Just After Christmas
+                            </a>
+                        </h4>
+                    </article>
+                </div>
+
+                <div class="col-sm-4">
+                    <article>
+                        <div class="image">
+                            <a href="#">
+                                <img
+                                    src="https://d.newsweek.com/en/full/1553175/penis-fish-stock-getty.webp?w=397&h=265&f=41ab317223f7b49100dda505963b29d1">
+                            </a>
+                        </div>
+                        <h4>
+                            <a href="#">
+                                Thousands of Bizarre Throbbing 'Penis Fish' Wash Up on California Beach
+                            </a>
+                        </h4>
+                    </article>
+                </div>
+
+                <div class="col-sm-4">
+                    <div class="feature-2 subfeature-2">
+                        <article class="flex-xs">
+                            <div class="image">
+                                <a href="#">
+                                    <img src="https://d.newsweek.com/en/full/1553030/ancient-egyptian-head-cone.webp?w=135&h=90&f=4340197308dd43f60759b36b2bb0d35c"
+                                        alt="">
+                                </a>
+                            </div>
+                            <div class="info">
+                                <a href="#">
+                                    Archaeologists Find First Ancient Egyptian Burial Head Cones
+                                </a>
+                            </div>
+                        </article>
+
+                        <article class="flex-xs">
+                            <div class="image">
+                                <a href="#">
+                                    <img src="https://d.newsweek.com/en/full/1552989/starry-night-harlequin-toad.webp?w=135&h=90&f=474656bf6f6275bfe8c045e4dac73813"
+                                        alt="">
+                                </a>
+                            </div>
+                            <div class="info">
+                                <a href="#">
+                                    Starry Night Harlequin Toad Rediscovered After Being Lost to Science
+                                </a>
+                            </div>
+                        </article>
+
+                        <article class="flex-xs">
+                            <div class="image">
+                                <a href="#">
+                                    <img src="https://d.newsweek.com/en/full/1552934/praying-mantis.webp?w=135&h=90&f=c8d0a69d67e040389fde9a414d203d39"
+                                        alt="">
+                                </a>
+                            </div>
+                            <div class="info">
+                                <a href="#">
+                                    Your Christmas Tree Could Be Hiding Hundreds of Praying Mantis Eggs
+                                </a>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+
+
         </div>
     </section>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+        </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+        </script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+        </script>
+    <script>
+        $(document).ready(function () {
+            'use strict';
+
+            var c, currentScrollTop = 0,
+                navbar = $('nav'),
+                header = $('header')
+
+            $(window).scroll(function () {
+                var scroll = $(window).scrollTop();
+
+                currentScrollTop = scroll;
+
+                if (currentScrollTop == 0) {
+                    header.removeClass('fixed');
+                    header.css({
+                        "transition": "none"
+                    });
+                    navbar.removeClass('fixed')
+                    navbar.css({
+                        "top": "0"
+                    });
+                    $('main').css("margin-top", "0");
+                } else {
+                    header.addClass('fixed');
+                    navbar.addClass('fixed');
+                    navbar.css({
+                        "top": "50px"
+                    });
+                    $('main').css("margin-top", "40px");
+
+                    // if (currentScrollTop > 40) {
+
+                    //     if (c < currentScrollTop) {
+                    //         header.css({
+                    //             "top": "-45px",
+                    //             "transition": "all 0.3s "
+                    //         });
+                    //         navbar.css({
+                    //             "top": "0px"
+                    //         });
+
+                    //     } else if (c > currentScrollTop) {
+                    //         header.css({
+                    //             "top": "0",
+                    //             "transition": "all 0.3s "
+                    //         });
+                    //         navbar.css({
+                    //             "top": "40px"
+                    //         });
+                    //     }
+                    // }
+
+                }
+
+                c = currentScrollTop;
+            });
+
+        });
+    </script>
+
+    <!-- <script>
+        function toggle() {
+            var navbar = $('nav'),
+                button = $('.navbar-toggler')
+
+            if (navbar.hasClass('toggle')) {
+                navbar.removeClass('toggle')
+            } else {
+                navbar.addClass('toggle');
+            }
+
+            if (button.hasClass('crossed')) {
+                button.removeClass('crossed')
+            } else {
+                button.addClass('crossed')
+            }
+        }
+    </script> -->
 </body>
 
 </html>
