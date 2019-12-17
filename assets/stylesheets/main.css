@@ -1,4 +1,4 @@
-/*#region deafults*/
+/*#region defaults*/
 
 @font-face {
   font-family: "Genericons";
@@ -67,7 +67,12 @@ a:hover {
   color: inherit;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Roboto Condensed", sans-serif;
   margin-bottom: 10px;
   position: relative;
@@ -749,7 +754,7 @@ a.left-arrow:hover {
 
 .subscribe-block p {
   font: 300 15px/21px "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
 
 .subs-col {
@@ -825,7 +830,7 @@ a.left-arrow:hover {
   vertical-align: top;
   text-align: center;
   display: block;
-  font-family: "Genericons";
+  font-family: "Genericons", Arial, Helvetica, sans-serif;
   cursor: pointer;
 }
 

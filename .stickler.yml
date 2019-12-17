@@ -1,7 +1,3 @@
 linters:
   stylelint:
-    fixer:true
-    config: 'stylelintrc.json'
-  
-fixers:
-  enable:true
+    config: "stylelint.config.js"
