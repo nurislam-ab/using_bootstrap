@@ -38,7 +38,7 @@
 	-webkit-font-smoothing: antialiased;
 	font-size: 16px;
 	line-height: 1;
-	font-family: 'Genericons';
+	font-family: 'Genericons', Arial, Helvetica, sans-serif;
 	text-decoration: inherit;
 	font-weight: normal;
 	font-style: normal;
@@ -46,12 +46,8 @@
 	/**
  * IE7 and IE6 hacks
  */
-
-
-
 	*overflow: auto;
 	*zoom: 1;
-	*display: inline;
 }
 
 
@@ -137,7 +133,7 @@
 .genericon-collapse:before { content: '\f432'; }
 .genericon-dropdown:before { content: '\f433'; }
 .genericon-dropdown-left:before { content: '\f434'; }
-.genericon-top:before { content: '\f435'; }
+.genericon-top-t:before { content: '\f435'; }
 .genericon-draggable:before { content: '\f436'; }
 .genericon-phone:before { content: '\f437'; }
 .genericon-send-to-phone:before { content: '\f438'; }
