@@ -36,9 +36,9 @@
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
-*, ::after, ::before {
+/* *, ::after, ::before {
   box-sizing: border-box;
-}
+} */
 
 html {
   font-family: sans-serif;
@@ -539,7 +539,7 @@ pre code {
 }
 
 .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
-  width: 100%;
+  /* width: 100%; */
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
