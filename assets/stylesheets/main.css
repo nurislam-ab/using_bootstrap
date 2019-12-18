@@ -210,6 +210,7 @@ h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover {
   color: #f72210;
   border: none;
   border-radius: 0;
+  margin-right: 5px;
 }
 
 a.subscribe-button svg {
@@ -376,12 +377,12 @@ header.fixed {
 /*#endregion */
 
 /*#region Collapse menu*/
-
 .navbar-color {
   background: white;
   position: absolute;
   right: 0;
   height:calc(100vh - 50px);
+  z-index: 9999;
 }
 
 .navbar-color form {
@@ -450,6 +451,11 @@ header.fixed {
   background-color: #f72210;
 }
 
+
+.navbar-toggler {
+  margin-left: 15px;
+}
+/*#endregion*/
 
 #sticky3, #sticky4 {
   position: -webkit-sticky;
@@ -1217,9 +1223,13 @@ a.left-arrow:hover {
   }
 
   .page-header.fixed .top-header .col-2 {
-    right: -18px;
+    top: 10px;
 }
 
+  .top-header .col-2 {
+    right: -10px;
+    top: 10px;
+  }
 }
 
 @media (max-width: 767px) and (min-width: 481px) {
@@ -1232,8 +1242,12 @@ a.left-arrow:hover {
 @media screen and (max-width: 991px) {
   .top-header .col-2 {
       position: absolute;
-      top: 12px;
-      right: 30px;
+      top: 10px;
+      right: -5px;
+  }
+
+  .navbar-toggler {
+    display: block !important;
   }
 }
 
@@ -1242,7 +1256,7 @@ a.left-arrow:hover {
 
 .animated-icon1, .animated-icon2, .animated-icon3 {
   width: 30px;
-  height: 20px;
+  height: 25px;
   position: relative;
   margin: 0;
   -webkit-transform: rotate(0deg);
