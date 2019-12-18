@@ -454,6 +454,7 @@ header.fixed {
 
 .navbar-toggler {
   margin-left: 15px;
+  display: none;
 }
 /*#endregion*/
 
