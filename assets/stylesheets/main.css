@@ -1176,7 +1176,7 @@ a.left-arrow:hover {
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .col-sm-5 {
     -ms-flex: 0 0 100%;
     flex: 0 0 100%;
